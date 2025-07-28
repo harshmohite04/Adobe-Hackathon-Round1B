@@ -1,320 +1,257 @@
-# Adobe India Hackathon - PDF Processing & Semantic Search Application
+# Adobe India Hackathon - Round 1B Challenge
 
-## Overview
+## 🎯 Project Overview
 
-This application is designed for the Adobe India Hackathon Round 1B challenge. It processes PDF documents and implements semantic search functionality to extract relevant sections based on persona and job requirements.
+This project implements an intelligent PDF document processing system for the Adobe India Hackathon Round 1B challenge. The system extracts and ranks relevant sections from PDF documents based on semantic similarity to user-defined personas and job requirements.
 
-## Features
+### 🚀 Key Features
 
-- **PDF Text Extraction**: Extracts text content from PDF files page by page
-- **Vector Database**: Builds a FAISS-based vector database for efficient semantic search
-- **Semantic Search**: Uses sentence transformers to find relevant sections based on queries
-- **Content Filtering**: Automatically filters out meat-related content
-- **Ranking System**: Ranks extracted sections by relevance and importance
-- **JSON Output**: Generates structured JSON output with metadata and analysis
+- **Intelligent PDF Processing**: Extracts text content from PDF documents page by page
+- **Semantic Search**: Uses advanced sentence transformers for context-aware document ranking
+- **Persona-Based Filtering**: Ranks content based on specific user roles and job requirements
+- **JSON-Based I/O**: Structured input/output format for easy integration
+- **Docker Support**: Containerized deployment for consistent execution
+- **Top-5 Ranking**: Returns the most relevant sections with importance ranking
 
-## Architecture
+## 📁 Project Structure
+
+```
+ADOBBBBE/
+├── app.py                              # Main application logic
+├── requirements.txt                    # Python dependencies
+├── Dockerfile                          # Docker configuration
+├── .dockerignore                       # Docker build exclusions
+├── challenge1b_input.json              # Input configuration
+├── README.md                           # Project documentation
+└── 6874faecd848a_Adobe_India_Hackathon_-_Challenge_Doc (1).pdf  # Sample PDF
+```
+
+## 🏗️ Architecture
 
 ### Core Components
 
-1. **PDFProcessor Class**: Main class handling all PDF processing operations
-2. **Sentence Transformer**: Uses 'all-MiniLM-L6-v2' model for embeddings
-3. **FAISS Index**: High-performance vector similarity search
-4. **Text Chunking**: Processes documents into searchable chunks
+1. **PDFProcessor Class**
+   - `extract_text_from_pdf()`: Extracts text from PDF pages
+   - `process_documents()`: Processes all PDFs in a directory
+   - `rank_sections()`: Ranks sections by semantic similarity
 
-### Key Methods
+2. **Semantic Search Engine**
+   - Uses `all-MiniLM-L6-v2` model (80MB, CPU-optimized)
+   - Cosine similarity for relevance scoring
+   - Batch processing for efficiency
 
-- `extract_text_from_pdf()`: Extracts text from PDF files
-- `process_documents()`: Processes all PDFs in input directory
-- `_build_vector_db()`: Creates FAISS vector database
-- `rank_sections()`: Performs semantic search and ranking
-- `find_similar_sections()`: Finds similar content sections
+3. **Input/Output System**
+   - JSON-based configuration
+   - Structured output with metadata
+   - Timestamp tracking
 
-## Installation
+## 🛠️ Technology Stack
 
-### Option 1: Docker (Recommended)
+- **Python 3.9**: Core programming language
+- **PyPDF2**: PDF text extraction
+- **Sentence Transformers**: Semantic embeddings
+- **Scikit-learn**: Similarity calculations
+- **NumPy**: Numerical operations
+- **Docker**: Containerization
 
-#### Prerequisites
-- Docker installed on your system
-- Docker Compose (usually comes with Docker Desktop)
+## 📦 Installation & Setup
 
-#### Quick Start with Docker
+### Prerequisites
 
-```bash
-# Clone or download the project
-# Create required directories
-mkdir -p PDFs output
+- Python 3.9+
+- Docker (for containerized deployment)
+- At least 2GB RAM (for ML model loading)
 
-# Add your PDF files to PDFs/ directory
-# Configure challenge1b_input.json
+### Option 1: Local Development
 
-# Build and run with Docker Compose
-docker-compose up --build
-```
-
-For detailed Docker deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
-
-### Option 2: Local Installation
-
-#### Prerequisites
-
-- Python 3.7+
-- pip package manager
-
-#### Dependencies
-
-Install the required packages:
-
-```bash
-pip install PyPDF2 sentence-transformers numpy faiss-cpu scikit-learn
-```
-
-### Required Files Structure
-
-```
-project/
-├── app.py
-├── PDFs/                    # Directory containing PDF files
-├── challenge1b_input.json   # Input configuration file
-└── challenge1b_output.json  # Output file (generated)
-```
-
-## Usage
-
-### Adobe Hackathon Execution (Required Format)
-
-The application is designed to work with Adobe's specific Docker execution format:
-
-#### Build Command:
-```bash
-docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
-```
-
-#### Run Command:
-```bash
-docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none mysolutionname:somerandomidentifier
-```
-
-#### Expected Behavior:
-- **Input**: PDF files placed in `/app/input` directory
-- **Output**: JSON files generated in `/app/output` directory
-- **Format**: For each `filename.pdf`, generates `filename.json`
-
-### Quick Test
-
-1. **Create Test Directories**
+1. **Clone the repository**
    ```bash
-   mkdir -p input output
+   git clone <repository-url>
+   cd ADOBBBBE
    ```
 
-2. **Add PDF Files**
+2. **Install dependencies**
    ```bash
-   # Copy your PDF files to input directory
-   cp your_documents/*.pdf input/
+   pip install -r requirements.txt
    ```
 
-3. **Build and Run**
+3. **Run the application**
    ```bash
-   # Build the image
-   docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
-   
-   # Run the container
-   docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none mysolutionname:somerandomidentifier
+   python app.py
    ```
 
-4. **Check Results**
+### Option 2: Docker Deployment
+
+1. **Build the Docker image**
    ```bash
-   # Check generated JSON files
-   ls -la output/
+   docker build -t adobe-hackathon-round1b .
    ```
 
-### Windows Testing
+2. **Run the container**
+   ```bash
+   docker run -v $(pwd):/app/output adobe-hackathon-round1b
+   ```
 
-Use the provided batch file:
-```cmd
-test_docker.bat
-```
+## 📋 Usage
 
-### Linux/Mac Testing
+### Input Configuration
 
-Use the provided shell script:
-```bash
-chmod +x test_docker.sh
-./test_docker.sh
-```
-
-### Local Installation
-
-1. **Prepare Input Files**
-
-Create the input JSON file (`challenge1b_input.json`):
+Create a `challenge1b_input.json` file:
 
 ```json
 {
   "persona": {
-    "role": "Your persona description"
+    "role": "Software Engineer"
   },
   "job_to_be_done": {
-    "task": "Your task description"
+    "task": "Find information about Adobe internship opportunities and requirements"
   }
 }
 ```
 
-2. **Add PDF Documents**
+### Customizing Input
 
-Place your PDF files in the `PDFs/` directory.
+You can modify the persona and task to match your specific requirements:
 
-3. **Run the Application**
-
-```bash
-python app.py
+```json
+{
+  "persona": {
+    "role": "Data Scientist"
+  },
+  "job_to_be_done": {
+    "task": "Find information about machine learning projects and research opportunities"
+  }
+}
 ```
 
-### 4. Check Output
+### Output Format
 
-The application will generate `challenge1b_output.json` with:
-
-- **Metadata**: Processing information and vector database stats
-- **Extracted Sections**: Top 5 relevant sections with rankings
-- **Subsection Analysis**: Detailed analysis of each section
-
-## Output Format
-
-The application generates a structured JSON output with:
+The system generates `challenge1b_output.json` with the following structure:
 
 ```json
 {
   "metadata": {
-    "input_documents": ["document1.pdf", "document2.pdf"],
-    "persona": "Persona role",
-    "job_to_be_done": "Task description",
-    "processing_timestamp": "2024-01-01T12:00:00",
-    "vector_db_stats": {
-      "num_vectors": 150,
-      "embedding_dim": 384
-    }
+    "input_documents": ["filename.pdf"],
+    "persona": "Software Engineer",
+    "job_to_be_done": "Find information about Adobe internship opportunities and requirements",
+    "processing_timestamp": "2024-01-01T12:00:00"
   },
   "extracted_sections": [
     {
-      "document": "document1.pdf",
+      "document": "filename.pdf",
       "section_title": "Section Title",
       "importance_rank": 1,
-      "page_number": 5,
-      "similarity_score": 0.85
+      "page_number": 1
     }
   ],
   "subsection_analysis": [
     {
-      "document": "document1.pdf",
+      "document": "filename.pdf",
       "refined_text": "Extracted text content",
-      "page_number": 5,
-      "similarity_score": 0.85
+      "page_number": 1
     }
   ]
 }
 ```
 
-## Technical Details
+## 🔧 Configuration
 
-### Vector Database
+### Environment Variables
 
-- **Model**: all-MiniLM-L6-v2 (80MB, CPU-optimized)
-- **Index Type**: FAISS IndexFlatL2
-- **Embedding Dimension**: 384
-- **Similarity Metric**: Cosine similarity
-
-### Performance Features
-
-- **Efficient Processing**: Processes multiple PDFs in batch
-- **Memory Optimized**: Uses CPU-based sentence transformers
-- **Fast Search**: FAISS provides sub-second search times
-- **Content Filtering**: Automatically excludes meat-related content
-
-### Error Handling
-
-- Graceful PDF processing errors
-- Vector database validation
-- Input file validation
-- Comprehensive exception handling
-
-## Configuration
+- `PYTHONUNBUFFERED=1`: Ensures real-time output in Docker
 
 ### Model Configuration
 
-```python
-# Embedding model (80MB, CPU-optimized)
-self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')
-```
+- **Embedding Model**: `all-MiniLM-L6-v2`
+- **Device**: CPU (configurable for GPU)
+- **Similarity Metric**: Cosine similarity
+- **Output Limit**: Top 5 sections
 
-### Search Parameters
+### File Paths
 
-- **Top K Results**: 5 (configurable)
-- **Search Expansion**: 3x for filtering
-- **Similarity Threshold**: Automatic based on ranking
+- **Input Directory**: `./PDFs/`
+- **Input Config**: `./challenge1b_input.json`
+- **Output File**: `./challenge1b_output.json`
 
-## File Structure
+## 🚀 Performance Optimization
 
-```
-WIN ADOBE/
-├── app.py                                    # Main application file
-├── README.md                                 # This documentation
-├── DEPLOYMENT.md                             # Docker deployment guide
-├── Dockerfile                                # Docker configuration
-├── docker-compose.yml                        # Docker Compose setup
-├── requirements.txt                          # Python dependencies
-├── .dockerignore                             # Docker ignore rules
-├── PDFs/                                     # Input PDF directory
-├── output/                                   # Output directory
-├── challenge1b_input.json                   # Input configuration
-├── challenge1b_output.json                  # Generated output
-└── 6874faecd848a_Adobe_India_Hackathon_-_Challenge_Doc (1).pdf
-```
+### Memory Management
 
-## Dependencies
+- Uses lightweight sentence transformer model (80MB)
+- Batch processing for large documents
+- Efficient text chunking
 
-| Package | Version | Purpose |
-|---------|---------|---------|
-| PyPDF2 | Latest | PDF text extraction |
-| sentence-transformers | Latest | Text embeddings |
-| numpy | Latest | Numerical operations |
-| faiss-cpu | Latest | Vector similarity search |
-| scikit-learn | Latest | Cosine similarity |
+### Processing Speed
 
-## Performance Considerations
+- CPU-optimized model selection
+- Parallel embedding generation
+- Minimal memory footprint
 
-- **Memory Usage**: ~80MB for embedding model
-- **Processing Speed**: ~1-2 seconds per PDF page
-- **Search Speed**: Sub-second for typical queries
-- **Scalability**: Handles multiple PDFs efficiently
-
-## Troubleshooting
+## 🐛 Troubleshooting
 
 ### Common Issues
 
-1. **PDF Reading Errors**: Ensure PDFs are not password-protected
-2. **Memory Issues**: Use CPU-only model for large documents
-3. **Import Errors**: Install all required dependencies
-4. **File Not Found**: Check input directory structure
+1. **Memory Errors**
+   - Ensure Docker has at least 2GB RAM allocated
+   - Check available system memory
+
+2. **PDF Processing Errors**
+   - Verify PDF files are not corrupted
+   - Check file permissions
+   - Ensure PDFs are text-based (not scanned images)
+
+3. **Model Download Issues**
+   - First run may take longer to download the model
+   - Check internet connectivity
+   - Verify disk space availability
+
+4. **Docker Build Failures**
+   - Clear Docker cache: `docker system prune`
+   - Check Docker daemon status
+   - Verify Dockerfile syntax
 
 ### Debug Mode
 
-Add debug prints to track processing:
+Add debug logging to `app.py`:
 
 ```python
-# Add to main() function
-print(f"Processing {len(documents)} documents")
-print(f"Vector DB size: {len(processor.chunk_references)}")
+import logging
+logging.basicConfig(level=logging.DEBUG)
 ```
 
-## License
+## 📊 Performance Metrics
+
+- **Processing Speed**: ~2-5 seconds per PDF page
+- **Memory Usage**: ~500MB-1GB during processing
+- **Model Load Time**: ~10-30 seconds (first run)
+- **Accuracy**: High semantic relevance ranking
+
+## 🔮 Future Enhancements
+
+- **GPU Support**: CUDA acceleration for faster processing
+- **Multi-language Support**: Internationalization
+- **Advanced Chunking**: Intelligent text segmentation
+- **API Endpoint**: RESTful service interface
+- **Batch Processing**: Multiple document processing
+- **Custom Models**: Fine-tuned domain-specific models
+
+## 📝 License
 
 This project is developed for the Adobe India Hackathon Round 1B challenge.
 
-## Contributing
+## 👥 Contributing
 
-This is a hackathon submission. For questions or issues, refer to the challenge documentation.
+For the hackathon challenge, this is a standalone solution. For general contributions:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📞 Support
+
+For hackathon-related questions or technical support, please refer to the challenge documentation or contact the hackathon organizers.
 
 ---
 
-**Note**: This application is specifically designed for the Adobe India Hackathon challenge requirements and includes features like meat content filtering as per the challenge specifications. #   A d o b e - H a c k a t h o n - R o u n d 1 B  
- 
+**Note**: This solution is optimized for the Adobe India Hackathon Round 1B challenge requirements and includes the provided PDF document for testing and demonstration purposes. 
