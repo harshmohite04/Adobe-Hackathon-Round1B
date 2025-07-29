@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items."
+  },
+  "extracted_sections": [
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Cottage Cheese and Veggie Bowl",
+      "importance_rank": 1,
+      "page_number": 16
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Spaghetti Bolognese",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "browned.",
+      "importance_rank": 3,
+      "page_number": 12
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Honey Garlic Pork Ribs",
+      "importance_rank": 4,
+      "page_number": 6
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 5,
+      "page_number": 14
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 6,
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "seafood is cooked and rice is tender.",
+      "importance_rank": 7,
+      "page_number": 15
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 8,
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Caprese Sandwich",
+      "importance_rank": 9,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 10,
+      "page_number": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "\u2022 Serve immediately.  \n \n \n \nCottage Cheese and Veggie Bowl  \nIngredients:  \n\u2022 1 cup cottage cheese  \n\u2022 1/4 cup diced cucumber  \n\u2022 1/4 cup cherry tomatoes, halved  \n\u2022 1/4 cup diced bell pepper  \n\u2022 Salt and pepper to taste  \nInstructions:  \n\u2022 In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.  \n\u2022 Season with salt and pepper.  \n\u2022 Serve immediately.  \n  \n \n \nAlmond Butter and Apple Slices  \nIngredients:  \n\u2022 1 apple, sliced  \n\u2022 2 tablespoons almond butter  \nInstructions:  \n\u2022 Spread almond butter on each apple slice.  \n\u2022 Serve immediately.",
+      "page_number": 16
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\u2022 Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese.  \n\u2022 Bake for 20 -25 minutes until cheese is melted and bubbly.  \n\u2022 Serve warm.  \n \n \n \nSpaghetti Bolognese  \nIngredients:  \n\u2022 1 pound ground beef  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 1 carrot, grated  \n\u2022 1 celery stalk, diced  \n\u2022 1 can (28 ounces) crushed tomatoes  \n\u2022 1/4 cup tomato paste  \n\u2022 1/2 cup red wine (optional)  \n\u2022 1 teaspoon dried oregano  \n\u2022 1 teaspoon dried basil  \n\u2022 Salt and pepper to taste  \n\u2022 Spaghetti for serving  \n\u2022 Grated P armesan cheese for garnish  \nInstructions:  \n\u2022 In a large skillet, cook ground beef over medium heat until browned.  \n\u2022 Add diced onion, minced garlic, grated carrot, and diced celery, saut\u00e9 until vegetables \nare tender.  \n\u2022 Stir in crushed tomatoes, tomato paste, red wi ne (if using), oregano, basil, salt, and \npepper.  \n\u2022 Simmer for 30 minutes, stirring occasionally.  \n\u2022 Cook spaghetti according to package instructions.  \n\u2022 Serve Bolognese sauce over spaghetti, garnished with grated Parmesan cheese.  \n \n \n \nTeriyaki Chicken  \nIngredients:  \n\u2022 4 boneless, skinless chicken thighs  \n\u2022 1/4 cup soy sauce  \n\u2022 1/4 cup mirin  \n\u2022 2 tablespoons sugar  \n\u2022 1 tablespoon sake  \n\u2022 1 teaspoon grated ginger  \n\u2022 1 teaspoon minced garlic  \n\u2022 1 tablespoon vegetable oil  \n\u2022 Cooked rice for serving",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\u2022 In the same skillet, cook ground lamb or beef, diced onion, and minced garlic until \nbrowned.  \n\u2022 Stir in diced tomatoes, red wine, c innamon, oregano, salt, and pepper.  \n\u2022 Simmer for 20 minutes.  \n\u2022 In a baking dish, layer eggplant slices and meat sauce.  \n\u2022 Pour b\u00e9chamel sauce over the top and sprinkle with grated Parmesan cheese.  \n\u2022 Bake for 30 -35 minutes until golden and bubbly.  \n\u2022 Serve warm.  \n \n \n \nJambalaya  \nIngredients:  \n\u2022 1 pound chicken breast, cubed  \n\u2022 1/2 pound sausage, sliced  \n\u2022 1/2 pound shrimp, peeled and deveined  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 1 bell pepper, diced  \n\u2022 1 can (14.5 ounces) diced tomatoes  \n\u2022 1 cup chicken broth  \n\u2022 1 cup long -grain rice \n\u2022 1 teaspoon paprika  \n\u2022 1 teaspoon thyme  \n\u2022 1 teaspoon cayenne pepper  \n\u2022 2 tablespoons olive oil  \n\u2022 Salt and pepper to taste  \nInstructions:  \n\u2022 In a large pot, heat olive oil over medium heat.  \n\u2022 Cook cubed chicken and sliced sausage until browned, then set aside.  \n\u2022 In the s ame pot, saut\u00e9 diced onion, minced garlic, and diced bell pepper until softened.  \n\u2022 Stir in diced tomatoes, chicken broth, rice, paprika, thyme, cayenne pepper, salt, and \npepper.  \n\u2022 Bring to a boil, then reduce heat and simmer for 20 minutes.  \n\u2022 Add shrimp and cook ed chicken and sausage, simmer for an additional 10 minutes until \nshrimp is cooked and rice is tender.  \n\u2022 Serve warm.  \n \n \nLamb Curry  \nIngredients:  \n\u2022 1 pound lamb, cubed  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced",
+      "page_number": 12
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": "\u2022 Cook gnocchi according to package instructions, then drain.  \n\u2022 In a large skillet, melt butter over medium heat.  \n\u2022 Add minced garlic and sage leaves, saut\u00e9 until fragrant and sage is crispy.  \n\u2022 Add cooked gnoc chi to the skillet and toss to coat in the butter sauce.  \n\u2022 Season with salt and pepper, and sprinkle with Parmesan cheese.  \n\u2022 Serve warm.  \n \n \n \nHoney Garlic Pork Ribs  \nIngredients:  \n\u2022 2 pounds pork ribs  \n\u2022 1/4 cup honey  \n\u2022 1/4 cup soy sauce  \n\u2022 2 tablespoons rice vinegar  \n\u2022 3 cloves garlic, minced  \n\u2022 1 teaspoon grated ginger  \n\u2022 1 teaspoon paprika  \n\u2022 Salt and pepper to taste  \n\u2022 Sliced green onions for garnish  \nInstructions:  \n\u2022 Preheat oven to 300\u00b0F (150\u00b0C).  \n\u2022 Season ribs with salt, pepper, and paprika, then place in a baking dish.  \n\u2022 In a bowl, mix honey, soy sauce, rice vinegar, garlic, and ginger. Pour over the ribs.  \n\u2022 Cover with foil and bake for 2.5 hours, basting occasionally with the sauce.  \n\u2022 Remove foil, increase oven to 400\u00b0F (200\u00b0C), and bake for 15 -20 minutes until \ncaramelized.  \n\u2022 Garnish with gre en onions and serve.  \n \n \n \nMoroccan Chicken Tagine  \nIngredients:  \n\u2022 4 chicken thighs  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 1 cup chicken broth  \n\u2022 1/2 cup dried apricots, chopped  \n\u2022 1/2 cup green olives  \n\u2022 1 tablespoon olive oil  \n\u2022 1 teaspoon cumin  \n\u2022 1 teaspoon cinnamon  \n\u2022 1 teaspoon turmeric  \n\u2022 Salt and pepper to taste",
+      "page_number": 6
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\u2022 1 pound ground beef  \n\u2022 1/2 pound ground pork  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 1/2 cup breadcrumbs  \n\u2022 1/4 cup milk  \n\u2022 1 egg, beaten  \n\u2022 1/4 cup ketchup  \n\u2022 1 tablespoon Worcestershire sauce  \n\u2022 1 teaspoon salt  \n\u2022 1/2 teaspoon pepper  \nInstructions:  \n\u2022 Preheat oven to 350\u00b0F (175\u00b0C).  \n\u2022 In a large bowl, mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, \nmilk, beaten egg, ketchup, Worcestershire sauce, salt, and pepper.  \n\u2022 Shape the mixture into a loaf and place in a baking dish.  \n\u2022 Bake for 1 hour until cooked through.  \n\u2022 Let rest before slicing and serving.  \n \n \n \nPaella  \nIngredients:  \n\u2022 1/2 pound chicken breast, cubed  \n\u2022 1/2 pound  shrimp, peeled and deveined  \n\u2022 1/2 pound mussels, cleaned  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 1 bell pepper, diced  \n\u2022 1 cup short -grain rice  \n\u2022 2 cups chicken broth  \n\u2022 1/2 cup white wine  \n\u2022 1/4 cup olive oil  \n\u2022 1 teaspoon saffron  \n\u2022 1 teaspoon paprika  \n\u2022 Salt and pepper  to taste  \n\u2022 Lemon wedges for garnish  \nInstructions:  \n\u2022 In a large skillet, heat olive oil over medium heat.  \n\u2022 Cook cubed chicken until browned, then set aside.  \n\u2022 In the same skillet, saut\u00e9 diced onion, minced garlic, and diced bell pepper until \nsoftened.  \n\u2022 Stir in ric e, chicken broth, white wine, saffron, paprika, salt, and pepper.  \n\u2022 Bring to a boil, then reduce heat and simmer for 15 minutes.",
+      "page_number": 14
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "\u2022 1/4 cup spinach, chopped \n\u2022 1/4 cup shredded carrots  \n\u2022 1 tablespoon tahini  \n\u2022 1 tablespoon lemon juice  \n\u2022 Salt and pepper to taste  \nInstructions:  \n\u2022 In a bowl, combine the mashed chickpeas, spinach, carrots, tahini, and lemon juice.  \n\u2022 Season with salt and pepper.  \n\u2022 Lay the tortilla flat and spread the mixture evenly.  \n\u2022 Roll up the tortilla tightly and slice in half. \n \n \n \nTurkey and Apple Sandwic h \nIngredients:  \n\u2022 2 slices whole grain bread  \n\u2022 4 slices turkey breast  \n\u2022 1/2 apple, thinly sliced  \n\u2022 1/4 cup baby spinach  \n\u2022 1 tablespoon mustard or mayo \nInstructions:  \n\u2022 Spread mustard or mayo on one slice of bread.  \n\u2022 Layer the turkey, apple slices, and spinach on top.  \n\u2022 Top with the second slice of bread and cut in half. \n \n \n \n \n Mediterranean Tuna Salad  \nIngredients:  \n\u2022 1 can tuna, drained  \n\u2022 1/4 cup cherry tomatoes, halved  \n\u2022 1/4 cup cucumber, diced \n\u2022 1/4 cup black olives, sliced  \n\u2022 1/4 cup feta cheese, crumbled  \n\u2022 2 tablespoons olive oil  \n\u2022 1 tab lespoon lemon juice  \n\u2022 Salt and pepper to taste  \nInstructions:  \n\u2022 In a bowl, combine the tuna, tomatoes, cucumber, olives, and feta cheese.  \n\u2022 Drizzle with olive oil and lemon juice.  \n\u2022 Season with salt and pepper, then toss to combine.",
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\u2022 Add shrimp, mussels, and cooked chicken, simmer for an additional 10 minutes until \nseafood is cooked and rice is tender.  \n\u2022 Garnish with lemon wedges and serve.  \n \n \n \nPork Chops with Apples  \nIngredients:  \n\u2022 4 pork chops  \n\u2022 2 apples, sliced  \n\u2022 1 small onion, sliced  \n\u2022 1/4 cup apple cider  \n\u2022 1/4 cup chicken broth  \n\u2022 2 tablespoons butter  \n\u2022 1 tablespoon olive oil  \n\u2022 1 teaspoon thyme  \n\u2022 Salt and pepper to taste  \nInstructions:  \n\u2022 Season pork chops with salt and pepper.  \n\u2022 In a large skillet, heat olive oil over medium heat.  \n\u2022 Cook pork chops until browned on both sides, then set aside.  \n\u2022 In the same skillet, melt butter and saut\u00e9 sliced onion and apples until softened.  \n\u2022 Stir in apple cider, chicken broth, and thyme.  \n\u2022 Return pork chops to the skillet and simmer for 10 minutes until cooked through.  \n\u2022 Serve warm.  \n \n \n \nRatatouille  \nIngredients:  \n\u2022 1 eggplant, diced  \n\u2022 1 zucchini, diced  \n\u2022 1 bell pepper, diced  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 4 tomatoes, diced",
+      "page_number": 15
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "\u2022 1/4 cup bacon, chopped  \n\u2022 1/4 cup green onions, sliced  \n\u2022 Salt and pepper to taste  \nInstructions:  \n\u2022 In a pot, bring water to a boil and stir in grits.  \n\u2022 Reduce heat and simmer until thickened, then stir in shredded cheddar cheese and \nbutter.  \n\u2022 In a skillet, cook chopped bacon until crispy, then set aside.  \n\u2022 In the same skillet, saut\u00e9 diced onion and minced garlic until soften ed. \n\u2022 Add shrimp and cook until pink and opaque.  \n\u2022 Stir in cooked bacon and sliced green onions.  \n\u2022 Serve shrimp mixture over grits.  \n \n \n \nSpaghetti Carbonara  \nIngredients:  \n\u2022 1 pound spaghetti  \n\u2022 4 eggs  \n\u2022 1 cup grated Parmesan cheese  \n\u2022 1/2 cup pancetta, diced  \n\u2022 2 cloves garlic , minced  \n\u2022 1/4 cup heavy cream (optional)  \n\u2022 Salt and pepper to taste  \n\u2022 Chopped parsley for garnish  \nInstructions:  \n\u2022 Cook spaghetti according to package instructions.  \n\u2022 In a skillet, cook diced pancetta until crispy, then set aside.  \n\u2022 In a bowl, whisk eggs, grated Parmesan cheese, and heavy cream (if using).  \n\u2022 In the same skillet, saut\u00e9 minced garlic until fragrant.  \n\u2022 Add cooked spaghetti and toss to coat.  \n\u2022 Remove from heat and quickly stir in the egg mixture, pancetta, salt, and pepper.  \n\u2022 Garnish with chopped parsley and serve.  \n \n \n \nStuffed Bell Peppers  \nIngredients:  \n\u2022 4 bell peppers, tops cut off and seeds removed  \n\u2022 1 pound ground beef  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 1 cup cooked rice  \n\u2022 1 can (14.5 ounces) diced tomatoes",
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "\u2022 Serve on lettuce leaves or whole grain bread.  \n \n \n \nCaprese Sandwich  \nIngredients:  \n\u2022 2 slices ciabatta bread  \n\u2022 1/2 cup fresh mozzarella, sliced  \n\u2022 1 tomato, sliced  \n\u2022 Fresh basil leaves  \n\u2022 1 tablespoon balsamic glaze  \n\u2022 1 tablespoon olive oil  \n\u2022 Salt and pepper to taste  \nInstructions:  \n\u2022 Drizzle olive oil on one slice of bread.  \n\u2022 Layer the mozzarella, tomato, and basil on top.  \n\u2022 Drizzle with balsamic glaze and season with salt and pepper. \n\u2022 Top with the second slice of bread and cut in half. \n \n \n Chicken Salad Lettuce Wraps  \nIngredients:  \n\u2022 1 cup cooked chicken breast, shredded \n\u2022 1/4 cup mayonnaise  \n\u2022 1 tablespoon Dijon mustard  \n\u2022 1 celery stalk, diced  \n\u2022 1/4 cup red grapes, halved  \n\u2022 Salt and pepper to taste  \n\u2022 Lettuce leaves for serving  \nInstructions:  \n\u2022 In a bowl, combine the chicken, mayonnaise, Dijon mustard, celery, and grapes.  \n\u2022 Season with salt and pepper.  \n\u2022 Serve in lettuce leaves.  \n \n \n Veggie and Hummus Wrap  \nIngredients:  \n\u2022 1 whole wheat tortilla  \n\u2022 1/2 cup hummus  \n\u2022 1/2 cup cucu mber, sliced  \n\u2022 1/2 cup bell pepper, sliced",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\u2022 Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings  \nInstructions:  \n\u2022 In a skillet, cook ground beef over medium heat until browned.  \n\u2022 Add diced onion and minced garlic, saut\u00e9 until softened.  \n\u2022 Stir in taco seasoning and water, simmer until thickened.  \n\u2022 Serve beef m ixture in taco shells or tortillas with desired toppings.  \n \n \n \nLasagna  \nIngredients:  \n\u2022 1 pound ground beef  \n\u2022 1 small onion, diced  \n\u2022 2 cloves garlic, minced  \n\u2022 1 jar (24 ounces) marinara sauce  \n\u2022 1 can (15 ounces) ricotta cheese  \n\u2022 1 egg  \n\u2022 1/4 cup grated Parmesan cheese  \n\u2022 1 teaspoon dried basil  \n\u2022 1 teaspoon dried oregano  \n\u2022 9 lasagna noodles, cooked  \n\u2022 2 cups shredded mozzarella cheese  \nInstructions:  \n\u2022 Preheat oven to 375\u00b0F (190\u00b0C).  \n\u2022 In a skillet, cook ground beef, diced onion, and minced garlic until browned.  \n\u2022 Stir in marinara sauce and simmer for 10 minutes.  \n\u2022 In a bowl, mix ricotta cheese, egg, grated Parmesan cheese, basil, and oregano.  \n\u2022 Spread a thin layer of meat sauce in a baking dish.  \n\u2022 Layer with 3 lasagna noodles, 1/3 of the ricotta mixture, 1/3 of the meat sauce, and 1/3 \nof the shred ded mozzarella cheese.  \n\u2022 Repeat layers twice more.  \n\u2022 Cover with foil and bake for 25 minutes.  \n\u2022 Remove foil and bake for an additional 25 minutes until cheese is melted and bubbly.  \n\u2022 Let stand for 10 minutes before serving.  \n \n \n \nChicken Alfredo  \nIngredients:  \n\u2022 4 boneless, skinless chicken breasts  \n\u2022 1 pound fettuccine  \n\u2022 1 cup heavy cream  \n\u2022 1/2 cup grated Parmesan cheese  \n\u2022 1/4 cup butter",
+      "page_number": 5
+    }
+  ]
+}

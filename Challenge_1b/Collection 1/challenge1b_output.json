@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends."
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Family -Friendly Activities",
+      "importance_rank": 1,
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "joining a guided tour to avoid drinking and driving.",
+      "importance_rank": 2,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "shark lagoon and touch tanks.",
+      "importance_rank": 3,
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Family -Friendly Hotels",
+      "importance_rank": 4,
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Outdoor Activities",
+      "importance_rank": 5,
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Hotels",
+      "importance_rank": 6,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Upscale Hotels",
+      "importance_rank": 7,
+      "page_number": 11
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Overview of the Region",
+      "importance_rank": 8,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing,",
+      "importance_rank": 9,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Coastal Adventures",
+      "importance_rank": 10,
+      "page_number": 2
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Family -Friendly Activities  \nThe South of France o\ufb00ers a variety of activities that are perfect for families with children: \nTheme Parks and Attractions  \n\u2022 Antibes: Visit Marineland for marine shows and an aquarium. \n\u2022 Fr\u00e9jus: Cool o\ufb00 at Aqualand water park.  \n\u2022 Villeneuve -Loubet: Enjoy quirky attractions at Le Village des Fous.  \n\u2022 Monteux: Spend a day at Parc Spirou, a theme park based on the famous comic book \ncharacter. \n\u2022 La Palmyre: Explore the La Palmyre Zoo, home to a wide variety of animals. \n\u2022 Cap d'Agde: Have fun at Luna Park, an amusement park with rides and games.  \n\u2022 Toulouse: Visit the Cit\u00e9 de l'Espace, a space -themed science museum with interactive \nexhibits.  \nOutdoor Adventures  \n\u2022 Verdon Gorge: Take a family hike or rent paddle boats to explore the stunning Verdon Gorge. \n\u2022 Camargue Natural Park: Explore wetlands with wild horses and flamingos, and enjoy horseback riding, bird watching, and boat tours. \n\u2022 Various Locations: Try tree -top adventure parks with zip lines, rope bridges, and \nclimbing challenges.  \n\u2022 Gorges du Tarn: Go  on a family -friendly hike and enjoy the scenic views.  \n\u2022 Lake Annecy: Rent bikes and ride along the lake's picturesque bike paths. \n\u2022 Pyrenees: Take a cable car ride for stunning mountain views and easy hiking trails. \n\u2022 Dordogne: Explore the region's caves and pr ehistoric sites with guided tours suitable \nfor children. \nEducational Experiences  \n\u2022 Toulouse: Visit Cit\u00e9 de l'Espace for a space -themed science museum with interactive \nexhibits, a planetarium, and a replica of the Mir space station.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Notebook:  Bring a notebook to jot down notes about the wines you taste.  \n\u2022 Water Bottle:  Stay hydrated by drinking wate r between tastings.  \n\u2022 Additional Tips:  Plan your wine tour route in advance and consider hiring a driver or \njoining a guided tour to avoid drinking and driving.  \n \nTips and Tricks for Packing  \n\u2022 Check the Weather:  Check the forecast before packing to ensure appro priate clothing.  \n\u2022 Make a Packing List:  Create a list to ensure nothing is forgotten. Cross o\ufb00 items as you \npack.  \n\u2022 Use Packing Cubes:  Organize clothes and maximize space.  \n\u2022 Roll Your Clothes:  Save space and reduce wrinkles.  \n\u2022 Pack Dual -Purpose Items:  Choose item s that serve multiple purposes.  \n\u2022 Wear Bulky Items: Wear bulky items like coats or boots during travel to save suitcase \nspace.  \n\u2022 Pack a Day Bag: Bring a small day bag for daily excursions. \n\u2022 Leave Room for Souvenirs:  Leave extra space or bring a foldable bag for  souvenirs.  \n\u2022 Additional Tips:  Pack a small travel umbrella, a reusable shopping bag, and a \nportable phone charger. Consider using a luggage scale to avoid overweight baggage \nfees.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Monaco: Explore the Mus\u00e9e Oc\u00e9anographique and its marine exhibits, including a \nshark lagoon and touch tanks.  \n\u2022 Dordogne: See ancient cave paintings at prehistoric sites like Lascaux and Rou\ufb03gnac, and visit museums dedicated to prehistoric life. \n\u2022 Montpellier: Discover the Planet Ocea n World, an aquarium and planetarium with \ninteractive exhibits.  \n\u2022 Carcassonne: Take a guided tour of the medieval citadel and learn about its history and architecture. \n\u2022 N\u00eemes: Visit the Roman amphitheater and learn about ancient Roman history.  \n\u2022 Arles: Explore the Roman ruins and the Mus\u00e9e de l'Arles Antique, which showcases artifacts from the city's past.",
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Family -Friendly Hotels  \n\u2022 Club Med Opio en Provence (Opio): A family -friendly resort o\ufb00ering a wide range of \nactivities for children and adults, including sports, entertainment, and kids' clubs. The \nbeautiful setting and al l-inclusive amenities make it a hassle -free vacation spot.  \n\u2022 Le Mas de Pierre (Saint -Paul -de-Vence): A luxurious family -friendly hotel o\ufb00ering \nspacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive servi ce ensure a comfortable stay for families.  \n\u2022 H\u00f4tel Les Roches Rouges (Saint -Rapha\u00ebl): A family -friendly hotel located on the \nbeach, o\ufb00ering comfortable rooms, a kids' club, and a variety of water sports. The \nbeachfront location and family -oriented amenities  make it a great choice for a seaside \nvacation.  \n\u2022 Ch\u00e2teau de Berne (Lorgues): A family -friendly hotel located on a vineyard, o\ufb00ering \nspacious rooms, a kids' club, and a variety of outdoor activities. The picturesque \nsetting and family -friendly facilities ma ke it a unique and enjoyable stay.  \n\u2022 H\u00f4tel Barri\u00e8re Le Majestic (Cannes): A luxurious family -friendly hotel o\ufb00ering spacious \nrooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable sta y for families.  \n\u2022 H\u00f4tel du Cap -Eden -Roc (Antibes): A luxurious family -friendly hotel o\ufb00ering spacious \nrooms, beautiful gardens, and a variety of activities for children. The elegant decor and \nattentive service ensure a comfortable stay for families.  \n\u2022 H\u00f4tel R oyal Riviera (Saint -Jean -Cap-Ferrat): A luxurious family -friendly hotel o\ufb00ering \nspacious rooms, beautiful gardens, and a variety of activities for children. The elegant \ndecor and attentive service ensure a comfortable stay for families.  \n\u2022 H\u00f4tel Le Negresco (Nice): A luxurious family -friendly hotel o\ufb00ering spacious rooms, \nbeautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families.  \n\u2022 H\u00f4tel Martinez (Cannes): A luxurious family -friendly hotel o\ufb00ering spacious rooms, \nbeautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families.  \n\u2022 H\u00f4tel de Paris (Monaco): A luxurious family -friendly hotel o\ufb00ering spacious rooms, \nbeautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Outdoor Activities  \nThe diverse landscapes of the South of France o\ufb00er plenty of opportunities for outdoor \nadventures:  \nHiking and Biking  \n\u2022 Verdon Gorge : Known as the \"Grand Canyon of Europe,\" o\ufb00ering spectacular hiking \ntrails. \n\u2022 Luberon Regional Park : Explore picturesque villages and rolling hills, famous for \nlavender fields and vineyards.  \n\u2022 Pyrenees National Park : Enjoy challenging hikes and stunning mountain scenery.  \n\u2022 Mercantour Natio nal Park : Discover diverse wildlife and beautiful alpine landscapes.  \n\u2022 Camargue : Explore the unique wetlands on horseback or by bike.  \n\u2022 Mont Ventoux: Challenge yourself with a hike or bike ride up this iconic mountain.  \n\u2022 Gorges du Tarn : Hike through dramatic gor ges and enjoy breathtaking views.  \nWater Activities  \n\u2022 Ard\u00e8che River: Paddle through the stunning Ard\u00e8che Gorge.  \n\u2022 Dordogne River : Enjoy a leisurely canoe trip, passing by medieval castles and \ncharming villages. \n\u2022 Ubaye River : Experience white -water rafting for an  adrenaline rush.  \n\u2022 Gorges du Verdon : Rent a kayak or paddleboat to explore the turquoise waters.  \n\u2022 Lake Sainte -Croix : Enjoy swimming, sailing, and windsurfing on this beautiful lake. \n\u2022 Lake Serre -Pon\u00e7on : Try water skiing or wakeboarding on one of the largest ar tificial \nlakes in Europe.  \n\u2022 C\u00e9vennes National Park : Go canyoning in the rugged terrain of this beautiful park.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Hotels  \nBudget -Friendly Hotels  \n\u2022 Ibis Budget Nice Californie Lenval (Nice): A budget -friendly hotel o\ufb00ering comfortable \nrooms and easy access to the beach and city cent er. The modern amenities and \nconvenient location make it a great choice for budget -conscious travelers.  \n\u2022 Hotel Le Saint Paul (Nice): A charming hotel located in a historic building, o\ufb00ering \na\ufb00ordable rates and beautiful views of the Mediterranean. The coz y rooms and \nfriendly service make it a pleasant stay.  \n\u2022 Hotel des Arts (Montpellier): A budget -friendly hotel located in the heart of \nMontpellier, o\ufb00ering comfortable rooms and easy access to the city's attractions. The artistic decor and central location m ake it a popular choice.  \n\u2022 Hotel Le Mistral (Marseille): A budget -friendly hotel o\ufb00ering simple, clean rooms and \na convenient location near the Old Port. The friendly sta\ufb00 and a\ufb00ordable rates make it a good option for travelers on a budget.  \n\u2022 Hotel Azur (Ni ce): A budget -friendly hotel o\ufb00ering comfortable rooms and easy \naccess to the beach and city center. The modern amenities and convenient location make it a great choice for budget -conscious travelers.  \n\u2022 Hotel de la Paix (Marseille): A budget -friendly hotel o\ufb00ering simple, clean rooms and \na convenient location near the Old Port. The friendly sta\ufb00 and a\ufb00ordable rates make it a good option for travelers on a budget.  \n\u2022 Hotel du Palais (Montpellier): A budget -friendly hotel located in the heart of \nMontpellier, o \ufb00ering comfortable rooms and easy access to the city's attractions. The \nartistic decor and central location make it a popular choice.  \n\u2022 Hotel de la Mer (Nice): A budget -friendly hotel o\ufb00ering comfortable rooms and easy \naccess to the beach and city center. The modern amenities and convenient location \nmake it a great choice for budget -conscious travelers.  \n\u2022 Hotel de la Plage (Marseille): A budget -friendly hotel o\ufb00ering simple, clean rooms and \na convenient location near the Old Port. The friendly sta\ufb00 and a\ufb00o rdable rates make it \na good option for travelers on a budget.  \n\u2022 Hotel de la Gare (Montpellier): A budget -friendly hotel located in the heart of \nMontpellier, o\ufb00ering comfortable rooms and easy access to the city's attractions. The artistic decor and central location make it a popular choice.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Upscale Hotels  \n\u2022 Hotel Negresco (Nice): A historic five -star hotel located on the Promenade des \nAnglais, o\ufb00 ering luxurious rooms and exceptional service. The opulent decor and \nprime location make it a landmark in Nice.  \n\u2022 InterContinental Marseille - Hotel Dieu (Marseille): A luxurious hotel located in a \nbeautifully restored 18th -century building, o\ufb00ering stunnin g views of the Old Port and \nthe city. The elegant rooms and top -notch amenities make it a standout choice.  \n\u2022 Hotel Martinez (Cannes): A luxurious hotel located on the Boulevard de la Croisette, \no\ufb00ering elegant rooms, a private beach, and a Michelin -starred restaurant. The \nglamorous setting and high -end services make it a favorite among celebrities.  \n\u2022 La Bastide de Gordes (Gordes): A luxurious hotel located in a historic building, o\ufb00ering elegant rooms, beautiful gardens, and stunning views of the Luberon Vall ey. \nThe refined decor and serene atmosphere make it a perfect retreat.  \n\u2022 H\u00f4tel Barri\u00e8re Le Majestic (Cannes): A luxurious hotel located on the Boulevard de la Croisette, o\ufb00ering elegant rooms, a private beach, and a Michelin -starred restaurant. \nThe glamorou s setting and high -end services make it a favorite among celebrities.  \n\u2022 H\u00f4tel du Cap -Eden -Roc (Antibes): A luxurious hotel located on the Boulevard de la \nCroisette, o\ufb00ering elegant rooms, a private beach, and a Michelin -starred restaurant. \nThe glamorous sett ing and high -end services make it a favorite among celebrities.  \n\u2022 H\u00f4tel Royal Riviera (Saint -Jean -Cap-Ferrat): A luxurious hotel located on the \nBoulevard de la Croisette, o\ufb00ering elegant rooms, a private beach, and a Michelin -\nstarred restaurant. The glamor ous setting and high -end services make it a favorite \namong celebrities.  \n\u2022 H\u00f4tel Le Negresco (Nice): A luxurious hotel located on the Boulevard de la Croisette, o\ufb00ering elegant rooms, a private beach, and a Michelin -starred restaurant. The \nglamorous setting and high -end services make it a favorite among celebrities.  \n\u2022 H\u00f4tel Martinez (Cannes): A luxurious hotel located on the Boulevard de la Croisette, o\ufb00ering elegant rooms, a private beach, and a Michelin -starred restaurant. The \nglamorous setting and high -end services make it a favorite among celebrities.  \n\u2022 H\u00f4tel de Paris (Monaco): A luxurious hotel located on the Boulevard de la Croisette, o\ufb00ering elegant rooms, a private beach, and a Michelin -starred restaurant. The \nglamorous setting and high -end services make  it a favorite among celebrities.",
+      "page_number": 11
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Overview of the Region  \nThe South of France, or \"Le Midi,\" encompasses the regions of Provence -Alpes -C\u00f4te d'Azur, \nOccitanie, and parts of Nouvelle -Aquitaine.  This area is renowned for its diverse landscapes, \nfrom the sun -drenched beaches of the French Riviera to the rolling vineyards of Provence and \nthe rugged Pyrenees mountains. The Mediterranean climate ensures warm summers and \nmild winters, making it a year -round destination. The South of France is also famous for its \ncuisine, wines, and vibrant cultural scene.  \nTravel Tips  \n\u2022 Best Time to Visit: The best time to visit the South of France is during the spring (April to June) and fall (September to October) when the weather is pleasant, and the tourist \ncrowds are smaller.  \n\u2022 Transportation : The region is well -connected by an extensive network of trains, \nbuses, and flights. Renting a car is also a great option for exploring the countryside \nand smaller towns.  \n\u2022 Language : While French is the o\ufb03cial language, English is widely spoken in tourist \nareas. Learning a few basic French phrases can enhance your travel experience.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, \nPlanning, and Exploring  \nIntroduction  \nPlanning a trip to the South of France requires thoughtful preparation to ensure a comfortable and enjoyable experience. This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with kids, or in a group, this guide will help you make the most of your trip.",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Coastal Adventures  \nThe South of Franc e is renowned for its beautiful coastline along the Mediterranean Sea. Here \nare some activities to enjoy by the sea:  \nBeach Hopping  \n\u2022 Nice : Visit the sandy shores and enjoy the vibrant Promenade des Anglais.  \n\u2022 Antibes: Relax on the pebbled beaches and explore t he charming old town.  \n\u2022 Saint -Tropez : Experience the exclusive beach clubs and glamorous atmosphere.  \n\u2022 Marseille to Cassis : Explore the stunning limestone cli\ufb00s and hidden coves of \nCalanques National Park.  \n\u2022 \u00celes d'Hy\u00e8res: Discover pristine beaches and excellen t snorkeling opportunities on \nislands like Porquerolles and Port -Cros.  \n\u2022 Cannes : Enjoy the sandy beaches and luxury beach clubs along the Boulevard de la \nCroisette.  \n\u2022 Menton : Visit the serene beaches and beautiful gardens in this charming town near \nthe Italian  border.  \nWater Sports  \n\u2022 Cannes, Nice, and Saint -Tropez : Try jet skiing or parasailing for a thrill.  \n\u2022 Toulon : Dive into the underwater world with scuba diving excursions to explore \nwrecks.  \n\u2022 Cerb\u00e8re -Banyuls : Visit the marine reserve for an unforgettable diving experience.  \n\u2022 Mediterranean Coast : Charter a yacht or join a sailing tour to explore the coastline \nand nearby islands.  \n\u2022 Marseille : Go windsurfing or kitesurfing in the windy bays.  \n\u2022 Port Grimaud : Rent a paddleboard and explore the canals of this picturesque vill age. \n\u2022 La Ciotat : Try snorkeling in the clear waters around the \u00cele Verte.",
+      "page_number": 2
+    }
+  ]
+}
